@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name teslalibrary)(type KiCad)(uri "$(KIPRJMOD)/linearps.pretty")(options "")(descr ""))
+)
