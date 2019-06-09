@@ -91,10 +91,10 @@ F 3 "" H 1250 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR1
+L GND #PWR01
 U 1 1 5CEC838A
 P 950 4450
-F 0 "#PWR1" H 950 4200 50  0001 C CNN
+F 0 "#PWR01" H 950 4200 50  0001 C CNN
 F 1 "GND" H 950 4300 50  0000 C CNN
 F 2 "" H 950 4450 50  0001 C CNN
 F 3 "" H 950 4450 50  0001 C CNN
@@ -185,7 +185,7 @@ L 2N3906 Q3
 U 1 1 5CEC8D8B
 P 2850 3250
 F 0 "Q3" H 3050 3325 50  0000 L CNN
-F 1 "2N2907" H 3050 3250 50  0000 L CNN
+F 1 "2N3906" H 3050 3250 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 3050 3175 50  0001 L CIN
 F 3 "" H 2850 3250 50  0001 L CNN
 	1    2850 3250
@@ -469,12 +469,12 @@ $EndComp
 $Comp
 L LM358 U2
 U 2 1 5CECDB2D
-P 9450 5700
-F 0 "U2" H 9450 5900 50  0000 L CNN
-F 1 "LM358" H 9450 5500 50  0000 L CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_Socket" H 9450 5700 50  0001 C CNN
-F 3 "" H 9450 5700 50  0001 C CNN
-	2    9450 5700
+P 10300 6050
+F 0 "U2" H 10300 6250 50  0000 L CNN
+F 1 "LM358" H 10300 5850 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_Socket" H 10300 6050 50  0001 C CNN
+F 3 "" H 10300 6050 50  0001 C CNN
+	2    10300 6050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -493,7 +493,7 @@ L 2N3904 Q1
 U 1 1 5CECF17A
 P 9400 4450
 F 0 "Q1" H 9600 4525 50  0000 L CNN
-F 1 "2N2222" H 9600 4450 50  0000 L CNN
+F 1 "2N3904" H 9600 4450 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 9600 4375 50  0001 L CIN
 F 3 "" H 9400 4450 50  0001 L CNN
 	1    9400 4450
@@ -744,23 +744,23 @@ $EndComp
 $Comp
 L R R10
 U 1 1 5CEFC4C6
-P 8850 5800
-F 0 "R10" V 8930 5800 50  0000 C CNN
-F 1 "10k" V 8850 5800 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8780 5800 50  0001 C CNN
-F 3 "" H 8850 5800 50  0001 C CNN
-	1    8850 5800
+P 9550 5950
+F 0 "R10" V 9630 5950 50  0000 C CNN
+F 1 "100k" V 9550 5950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9480 5950 50  0001 C CNN
+F 3 "" H 9550 5950 50  0001 C CNN
+	1    9550 5950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R23
 U 1 1 5CEFC75E
-P 9000 5500
-F 0 "R23" V 9080 5500 50  0000 C CNN
-F 1 "100k" V 9000 5500 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8930 5500 50  0001 C CNN
-F 3 "" H 9000 5500 50  0001 C CNN
-	1    9000 5500
+P 9850 5800
+F 0 "R23" V 9930 5800 50  0000 C CNN
+F 1 "100k" V 9850 5800 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9780 5800 50  0001 C CNN
+F 3 "" H 9850 5800 50  0001 C CNN
+	1    9850 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -885,10 +885,10 @@ F 3 "" H 1650 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR2
+L GND #PWR02
 U 1 1 5CECFA19
 P 2900 2450
-F 0 "#PWR2" H 2900 2200 50  0001 C CNN
+F 0 "#PWR02" H 2900 2200 50  0001 C CNN
 F 1 "GND" H 2900 2300 50  0000 C CNN
 F 2 "" H 2900 2450 50  0001 C CNN
 F 3 "" H 2900 2450 50  0001 C CNN
@@ -907,10 +907,10 @@ F 3 "" H 3800 2200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR5
+L GND #PWR03
 U 1 1 5CED04A2
 P 3550 2450
-F 0 "#PWR5" H 3550 2200 50  0001 C CNN
+F 0 "#PWR03" H 3550 2200 50  0001 C CNN
 F 1 "GND" H 3550 2300 50  0000 C CNN
 F 2 "" H 3550 2450 50  0001 C CNN
 F 3 "" H 3550 2450 50  0001 C CNN
@@ -929,10 +929,10 @@ F 3 "" H 3150 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR3
+L GND #PWR04
 U 1 1 5CED0ACE
 P 3150 2450
-F 0 "#PWR3" H 3150 2200 50  0001 C CNN
+F 0 "#PWR04" H 3150 2200 50  0001 C CNN
 F 1 "GND" H 3150 2300 50  0000 C CNN
 F 2 "" H 3150 2450 50  0001 C CNN
 F 3 "" H 3150 2450 50  0001 C CNN
@@ -951,10 +951,10 @@ F 3 "" H 3350 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR4
+L GND #PWR05
 U 1 1 5CED1C83
 P 3350 2450
-F 0 "#PWR4" H 3350 2200 50  0001 C CNN
+F 0 "#PWR05" H 3350 2200 50  0001 C CNN
 F 1 "GND" H 3350 2300 50  0000 C CNN
 F 2 "" H 3350 2450 50  0001 C CNN
 F 3 "" H 3350 2450 50  0001 C CNN
@@ -1004,28 +1004,6 @@ F 2 "Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2900 2250 50  0001 C CNN
 F 3 "" H 2900 2250 50  0001 C CNN
 	1    2900 2250
 	0    1    1    0   
-$EndComp
-$Comp
-L POT RV4
-U 1 1 5CEDA0AA
-P 10000 5900
-F 0 "RV4" V 9825 5900 50  0000 C CNN
-F 1 "10k" V 9900 5900 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3296W" H 10000 5900 50  0001 C CNN
-F 3 "" H 10000 5900 50  0001 C CNN
-	1    10000 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L POT RV5
-U 1 1 5CEDAE92
-P 10350 5900
-F 0 "RV5" V 10175 5900 50  0000 C CNN
-F 1 "10k" V 10250 5900 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3296W" H 10350 5900 50  0001 C CNN
-F 3 "" H 10350 5900 50  0001 C CNN
-	1    10350 5900
-	1    0    0    -1  
 $EndComp
 $Comp
 L D D7
@@ -1093,6 +1071,17 @@ F 3 "" H 3150 3850 50  0001 C CNN
 	1    3150 3850
 	-1   0    0    1   
 $EndComp
+$Comp
+L Jumper_NO_Small JP1
+U 1 1 5CF283EF
+P 3400 4800
+F 0 "JP1" H 3400 4880 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3410 4740 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3400 4800 50  0001 C CNN
+F 3 "" H 3400 4800 50  0001 C CNN
+	1    3400 4800
+	0    1    1    0   
+$EndComp
 Connection ~ 3150 4200
 Wire Wire Line
 	3150 4200 3150 4000
@@ -1135,22 +1124,6 @@ Wire Wire Line
 	2750 4200 2750 4350
 Wire Wire Line
 	2750 4650 2750 4750
-Connection ~ 10650 5550
-Wire Wire Line
-	10650 6050 10350 6050
-Wire Wire Line
-	10650 5550 10650 6050
-Wire Wire Line
-	10500 5900 10500 5750
-Wire Wire Line
-	10000 5700 10000 5750
-Wire Wire Line
-	10150 5900 10150 5650
-Connection ~ 10200 5550
-Wire Wire Line
-	10200 6050 10000 6050
-Wire Wire Line
-	10200 5550 10200 6050
 Wire Wire Line
 	2900 2450 2900 2400
 Connection ~ 2900 2100
@@ -1183,13 +1156,7 @@ Connection ~ 2550 4200
 Wire Wire Line
 	2550 4200 2550 3950
 Wire Wire Line
-	10150 5650 10900 5650
-Wire Wire Line
 	10850 5300 10850 5000
-Wire Wire Line
-	10350 5300 10850 5300
-Wire Wire Line
-	10350 5750 10350 5300
 Connection ~ 2000 4200
 Wire Wire Line
 	2000 4200 2000 3950
@@ -1214,33 +1181,8 @@ Wire Wire Line
 	10800 1350 10700 1350
 Connection ~ 10950 5000
 Wire Wire Line
-	10500 5750 10900 5750
-Wire Wire Line
 	10850 5000 10950 5000
-Connection ~ 9800 5700
-Connection ~ 9700 5050
-Wire Wire Line
-	9700 5550 10900 5550
-Wire Wire Line
-	9700 5050 9700 5550
-Wire Wire Line
-	9750 5700 10000 5700
-Wire Wire Line
-	9800 5300 9800 5700
-Wire Wire Line
-	9000 5300 9800 5300
-Wire Wire Line
-	9000 5350 9000 5300
-Wire Wire Line
-	9000 5800 9000 5650
-Connection ~ 8700 5050
-Wire Wire Line
-	8700 5050 8700 5800
-Wire Wire Line
-	9150 5800 9000 5800
 Connection ~ 10200 5200
-Wire Wire Line
-	9150 5200 9150 5600
 Connection ~ 8650 4800
 Connection ~ 10650 5050
 Wire Wire Line
@@ -1256,7 +1198,7 @@ Connection ~ 10400 5200
 Wire Wire Line
 	10400 5200 10400 4850
 Wire Wire Line
-	9150 5200 10950 5200
+	9200 5200 10950 5200
 Connection ~ 8900 4300
 Connection ~ 950  4100
 Wire Wire Line
@@ -1285,7 +1227,7 @@ Wire Wire Line
 Wire Wire Line
 	10950 4550 10950 5100
 Wire Wire Line
-	10200 5050 10200 5200
+	10200 5050 10200 5650
 Connection ~ 4250 4050
 Wire Wire Line
 	4000 4050 4250 4050
@@ -1349,7 +1291,7 @@ Connection ~ 2150 4200
 Wire Wire Line
 	2150 5250 2150 5050
 Wire Wire Line
-	2600 5250 8900 5250
+	2600 5250 9150 5250
 Wire Wire Line
 	4050 5250 4050 3950
 Wire Wire Line
@@ -1447,7 +1389,6 @@ Wire Wire Line
 	8650 4800 8650 4450
 Wire Wire Line
 	8650 2700 8650 4150
-Connection ~ 7750 2700
 Wire Wire Line
 	1250 5250 1300 5250
 Wire Wire Line
@@ -1536,7 +1477,7 @@ Wire Wire Line
 Connection ~ 10800 4150
 Connection ~ 10650 4550
 Wire Wire Line
-	9150 4450 9150 4300
+	9150 4300 9150 4550
 Wire Wire Line
 	9150 4300 8900 4300
 Connection ~ 10800 4550
@@ -1549,21 +1490,87 @@ Connection ~ 9500 4100
 Connection ~ 7750 5050
 Wire Wire Line
 	7750 3900 7750 5050
-$Comp
-L Jumper_NO_Small JP1
-U 1 1 5CF283EF
-P 3400 4800
-F 0 "JP1" H 3400 4880 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 3410 4740 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3400 4800 50  0001 C CNN
-F 3 "" H 3400 4800 50  0001 C CNN
-	1    3400 4800
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3400 4700 3400 4200
 Connection ~ 3400 4200
 Wire Wire Line
 	3400 4900 3400 5250
 Connection ~ 3400 5250
+Wire Wire Line
+	9700 5550 10900 5550
+Wire Wire Line
+	10200 5650 10900 5650
+Wire Wire Line
+	9700 5950 10000 5950
+Connection ~ 9850 5950
+Wire Wire Line
+	9850 5650 9850 5550
+$Comp
+L R R28
+U 1 1 5CFD2D7E
+P 10200 6450
+F 0 "R28" V 10280 6450 50  0000 C CNN
+F 1 "10k" V 10200 6450 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10130 6450 50  0001 C CNN
+F 3 "" H 10200 6450 50  0001 C CNN
+	1    10200 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9650 6150 10000 6150
+Wire Wire Line
+	9850 6150 9850 6450
+Wire Wire Line
+	9850 6450 10050 6450
+Wire Wire Line
+	10600 6450 10350 6450
+Wire Wire Line
+	10600 5750 10600 6450
+$Comp
+L R R15
+U 1 1 5CFD31CE
+P 9500 6150
+F 0 "R15" V 9580 6150 50  0000 C CNN
+F 1 "10k" V 9500 6150 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9430 6150 50  0001 C CNN
+F 3 "" H 9500 6150 50  0001 C CNN
+	1    9500 6150
+	0    1    1    0   
+$EndComp
+Connection ~ 9850 6150
+Wire Wire Line
+	9200 6150 9350 6150
+Wire Wire Line
+	10600 5750 10900 5750
+Connection ~ 10600 6050
+Wire Wire Line
+	9400 5950 9400 5300
+Wire Wire Line
+	9400 5300 10850 5300
+Wire Wire Line
+	9200 6150 9200 5200
+Wire Wire Line
+	9700 5550 9700 5050
+Connection ~ 9700 5050
+Connection ~ 9850 5550
+$Comp
+L Jumper_NO_Small JP2
+U 1 1 5CFD5BFD
+P 9150 4650
+F 0 "JP2" H 9150 4730 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 9160 4590 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9150 4650 50  0001 C CNN
+F 3 "" H 9150 4650 50  0001 C CNN
+	1    9150 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9150 5250 9150 4750
+Connection ~ 8900 5250
+Connection ~ 9150 4450
+Text Notes 3200 6000 0    60   ~ 0
+To use with AC input, JP1 and JP2 are open.\nTo use with DC input, JP1 and JP2 are closed. \nHowever, the minimum limiting current is about 500 mA\nwhen a DC supply is used (reducing R9 reduces minimum current).
+Text Notes 3200 6600 0    60   ~ 0
+RV3 adjusts current limiting control (increase for more current).\nRV4 adjusts voltage (decrease for higher voltage)
+Connection ~ 7750 2700
 $EndSCHEMATC
