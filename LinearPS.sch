@@ -91,10 +91,10 @@ F 3 "" H 1250 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR01
+L GND #PWR1
 U 1 1 5CEC838A
 P 950 4450
-F 0 "#PWR01" H 950 4200 50  0001 C CNN
+F 0 "#PWR1" H 950 4200 50  0001 C CNN
 F 1 "GND" H 950 4300 50  0000 C CNN
 F 2 "" H 950 4450 50  0001 C CNN
 F 3 "" H 950 4450 50  0001 C CNN
@@ -885,10 +885,10 @@ F 3 "" H 1650 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L GND #PWR2
 U 1 1 5CECFA19
 P 2900 2450
-F 0 "#PWR02" H 2900 2200 50  0001 C CNN
+F 0 "#PWR2" H 2900 2200 50  0001 C CNN
 F 1 "GND" H 2900 2300 50  0000 C CNN
 F 2 "" H 2900 2450 50  0001 C CNN
 F 3 "" H 2900 2450 50  0001 C CNN
@@ -907,10 +907,10 @@ F 3 "" H 3800 2200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR03
+L GND #PWR5
 U 1 1 5CED04A2
 P 3550 2450
-F 0 "#PWR03" H 3550 2200 50  0001 C CNN
+F 0 "#PWR5" H 3550 2200 50  0001 C CNN
 F 1 "GND" H 3550 2300 50  0000 C CNN
 F 2 "" H 3550 2450 50  0001 C CNN
 F 3 "" H 3550 2450 50  0001 C CNN
@@ -929,10 +929,10 @@ F 3 "" H 3150 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L GND #PWR3
 U 1 1 5CED0ACE
 P 3150 2450
-F 0 "#PWR04" H 3150 2200 50  0001 C CNN
+F 0 "#PWR3" H 3150 2200 50  0001 C CNN
 F 1 "GND" H 3150 2300 50  0000 C CNN
 F 2 "" H 3150 2450 50  0001 C CNN
 F 3 "" H 3150 2450 50  0001 C CNN
@@ -951,10 +951,10 @@ F 3 "" H 3350 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND #PWR4
 U 1 1 5CED1C83
 P 3350 2450
-F 0 "#PWR05" H 3350 2200 50  0001 C CNN
+F 0 "#PWR4" H 3350 2200 50  0001 C CNN
 F 1 "GND" H 3350 2300 50  0000 C CNN
 F 2 "" H 3350 2450 50  0001 C CNN
 F 3 "" H 3350 2450 50  0001 C CNN
@@ -1569,8 +1569,25 @@ Wire Wire Line
 Connection ~ 8900 5250
 Connection ~ 9150 4450
 Text Notes 3200 6000 0    60   ~ 0
-To use with AC input, JP1 and JP2 are open.\nTo use with DC input, JP1 and JP2 are closed. \nHowever, the minimum limiting current is about 500 mA\nwhen a DC supply is used (reducing R9 reduces minimum current).
+To use with AC input, JP1 and JP2 are open.\nTo use with DC input, JP1 and JP2 are closed. \nHowever, the minimum limiting current is about 500 mA\nwhen a DC supply is used (reducing R9 reduces minimum current).\n\nFor low input voltage, close JP3.
 Text Notes 3200 6600 0    60   ~ 0
 RV3 adjusts current limiting control (increase for more current).\nRV4 adjusts voltage (decrease for higher voltage)
 Connection ~ 7750 2700
+$Comp
+L Jumper_NO_Small JP3
+U 1 1 5CFE5F75
+P 3500 2900
+F 0 "JP3" H 3500 2980 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3510 2840 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3500 2900 50  0001 C CNN
+F 3 "" H 3500 2900 50  0001 C CNN
+	1    3500 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 2800 3500 2700
+Connection ~ 3500 2700
+Wire Wire Line
+	3500 3000 3500 3050
+Connection ~ 3500 3050
 $EndSCHEMATC
