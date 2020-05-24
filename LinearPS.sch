@@ -996,7 +996,7 @@ F 3 "" H 9150 4650 50  0001 C CNN
 $EndComp
 Text Notes 5400 1250 0    60   ~ 0
 To use with AC input, JP1 and JP2 are open.\nTo use with DC input, JP1 and JP2 are closed. \nHowever, the minimum limiting current is about 500 mA\nwhen a DC supply is used (reducing R9 reduces minimum current).\n\nFor low input voltage, close JP3.
-Text Notes 5400 1600 0    60   ~ 0
+Text Notes 5400 1500 0    60   ~ 0
 RV3 adjusts current limiting control (increase for more current).\nRV4 adjusts voltage (decrease for higher voltage)
 $Comp
 L Jumper_NO_Small JP3
@@ -1885,7 +1885,7 @@ Wire Wire Line
 	3600 6600 3600 5950
 Connection ~ 3600 5950
 Text Notes 650  6950 0    60   ~ 0
-Jumpers JP4 and JP5 are for external control\nof current and voltage.  Jumper both to position 3\nfor external control, and then input external\nvoltage/current signal on J9.
+Jumpers JP4 and JP5 are for programmable\nsupply inputs.  Jumper both to position 3 \nfor external control of both voltage and\ncurrent , and then input external \nvoltage/current signal on J9.
 $Comp
 L GND #PWR017
 U 1 1 5D2A4408
@@ -1972,4 +1972,6 @@ Wire Wire Line
 Wire Wire Line
 	10750 5450 10900 5450
 Connection ~ 10750 5300
+Text Notes 5400 1750 0    60   ~ 0
+For up to 30 volts supply, LM358 is sufficient\nFor up to 40 volts supply, use TL35072P instead of LM358
 $EndSCHEMATC
